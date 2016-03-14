@@ -1,0 +1,26 @@
+# Coin Flip
+# Abdul_Peter_Des
+
+import random
+
+player_score = 0
+computer_score = 0
+game_number = 1
+choices = ['heads','tails']
+
+while game_number < 7:
+    player_choice = input("choose heads or tails: ")
+    computer_choice = random.choice(choices)
+
+    if player_choice == computer_choice:
+        player_score = player_score + 1
+        print("You won this game it was: ",computer_choice)
+    else:
+        computer_score = computer_score + 1
+        print("You lost this game it was:",computer_choice)
+    print("current score: ",player_score,"-",computer_score)
+    game_number = game_number + 1
+
+print("final score: You got: ",player_score, "I got: ",computer_score)
+
+

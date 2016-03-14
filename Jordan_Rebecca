@@ -1,0 +1,32 @@
+# Coin Flip 
+# Jordan & Rebecca
+
+import random
+#define coin list i.e. heads tails
+game_number = 0
+Score = 0
+
+
+
+while game_number < 4:
+              #Ask user to choose heads or tails.
+              game_number = game_number + 1
+              user = input("Enter heads or tails? ")
+              choice = ["heads", "tails"]
+              #random choice from list coin
+              computer = random.choice(choice)
+              #print random choice
+              print (computer)
+              if user == computer:  
+                            print ("Well Done")
+                            Score = Score + 1
+                            print (Score)
+              else:
+                            print ("You have lost")
+                            break
+              
+
+
+
+
+

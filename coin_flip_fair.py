@@ -1,4 +1,4 @@
-# Heads & Tails 1.1 12Feb2016
+# coin_flip_fair.py 12Feb2016
 import random
 
 # Ask user to choose heads or tails

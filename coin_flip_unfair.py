@@ -1,4 +1,4 @@
-# Heads & Tails Unfair 2 12Feb2016
+# coin_flip_unfair 12Feb2016
 import random
 
 # Ask user to choose heads or tails

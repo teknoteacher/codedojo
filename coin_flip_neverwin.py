@@ -1,4 +1,4 @@
-# Heads & Tails Never Win 12Feb2016
+# coin_flip_neverwin 12Feb2016
 import random
 
 # Ask user to choose heads or tails
